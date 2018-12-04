@@ -1,7 +1,7 @@
 
 #include "CUDAImageUtil.h"
 
-#include "mlibCuda.h"
+#include "mLibCuda.h"
 
 #define T_PER_BLOCK 16
 #define MINF __int_as_float(0xff800000)
